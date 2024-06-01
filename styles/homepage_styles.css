@@ -6,7 +6,7 @@
 /* navigation bar */
 
 .nav_container {
-    padding: 6px 10px;
+    padding: 10px;
     display:flex;
     justify-content:flex-end;
     align-items:center;
@@ -29,12 +29,16 @@
 
 .nav_container img {
     border-radius:50%;
-    padding: 0.5em;
+    padding: 0.4em 0.4em;
 }
 
 .nav_container img:hover {
     background-color: rgb(231, 228, 228);
     cursor: pointer;
+}
+
+.apps_icon:active {
+    
 }
 
 /* mian_container */
