@@ -6,6 +6,7 @@
 /* navigation bar */
 
 .nav_container {
+    position: relative;
     padding: 10px;
     display:flex;
     justify-content:flex-end;
@@ -37,9 +38,27 @@
     cursor: pointer;
 }
 
-.apps_icon:active {
-    
+.apps_icon img:hover {
+    .apps_dropbox {
+        opacity: 1;
+    }
 }
+
+.apps_dropbox {
+    opacity: 0;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+    top:100%;
+    right:20px;
+    width: 300px;
+    height: 300px;
+    overflow-y: scroll;
+    scrollbar-width: 5px;
+    scroll-behavior: smooth;
+}
+
 
 /* mian_container */
 
