@@ -53,8 +53,9 @@
     height: 450px;
     padding: 10px;
     padding-right: 0;
-    border-radius: 20px;
+    border-radius: 30px;
     background:rgb(226, 239, 255,0.55);
+    box-shadow: 0 0 10px 0.5px rgb(0,0,0,.1);
     overflow-y: auto;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -99,18 +100,18 @@
 }
 
 .general_apps {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
 
 .productive_apps {
     margin-top: 5px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 .app {
-    border-radius: 20px;
+    border-radius: 30px;
     width:30%;
     padding: 20px 0;
     display: flex;
@@ -125,7 +126,7 @@
     max-height: 1.2em;
     text-align: center;
     overflow: hidden;
-    font-size:0.9rem;
+    font-size:0.8rem;
 }
 
 .app:hover {
@@ -160,7 +161,7 @@
 /*------------ mian_container ------------*/
 
 .logo_container {
-    padding-top: 5rem;
+    padding-top: 8rem;
     margin-bottom: 1rem;
     display:flex;
     flex-shrink:1;
@@ -173,7 +174,7 @@
 }
 
 .logo {
-    width: 400px;
+    width: 275px;
 }
 
 .share_icon {
@@ -210,8 +211,12 @@
     }
 }
 
+.search_bar:hover {
+    box-shadow: 0 0 10px 1px rgba(185, 181, 181, 0.2);
+}
+
 .search_input {
-    width:450px;
+    width:420px;
     height:1.6rem;
     border: none;
     flex-grow:1;
